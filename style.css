@@ -33,6 +33,118 @@
     border-right: 2px solid #cfcfcf;
 }
 
+.small-navbar li a{
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.small-navbar li a:hover{
+    color: #ff7e8b;
+}
+
+.large-navbar li a{
+    font-size: 1.3rem;
+}
+
+.large-navbar li{
+    padding: 0 10px;
+}
+
+.large-navbar li{
+    border-bottom: 3px solid #ff7e8b;
+    padding-bottom: 15px;
+}
+
+.large-navbar li a:active{
+    color:#ff7e8b ;
+}
+
+
+.large-navbar li a img{
+    width: 40px;
+}
+
+.large-navbar li a .bg-icon{
+    padding: 10px;
+    background-color: #e5f3f3;
+    border-radius: 50px;
+}
+
+.clr-text{
+    color: #f15665;
+    font-size: 18px;
+}
+
+
+.collection .img-card {
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    position: relative;
+    padding:0 20px ;
+}
+
+.collection .img-card p{
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.collection .img-card p span{
+    font-size: 18px;
+}
+
+.collection .img-card p span i{
+    vertical-align: -1px;
+}
+
+.collection .img1{
+    background-image: url(images/pic1.avif);
+}
+
+.collection .img2{
+    background-image: url(images/pic2.avif); 
+}
+
+.collection .img3{
+    background-image: url(images/pic3.avif); 
+}
+
+
+.collection .img4{
+    background-image: url(images/pic4.avif); 
+}
+
+.card-body .rating{
+    padding: 2px 4px;
+    background-color: #24963f;
+    color: white;
+    border-radius: 6px;
+
+}
+
+.card-body .rating i{
+    font-size: 9px;
+    vertical-align: 2px;
+}
+
+.card img{
+    border-radius: 20px;
+}
+
+.card:hover{
+    box-shadow:2px 10px 16px 11px #e5dede;
+    border-radius: 15px;
+}
+
+
+.small-text{
+    font-size: 15px;
+    text-overflow: ellipsis;
+}
+
+
 
 @media only screen and (max-width: 992px) {
     .searchbar {
