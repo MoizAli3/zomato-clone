@@ -1,0 +1,42 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inpt1{
+    border: none;
+    height: 40px;
+}
+
+.inpt2{
+    border: none;
+    height: 40px;
+}
+
+
+.inpt1:focus,
+.inpt2:focus{
+    outline: none;
+}
+
+.fa-location-dot{
+    color: #ff7e8b;
+    font-size: 20px;
+}
+
+.fa-caret-down{
+    color: #4f4f4f;
+    padding-right: 15px;
+    border-right: 2px solid #cfcfcf;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .searchbar {
+        display: none;
+        background-color: #ff7e8b;
+    }
+  }
