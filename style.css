@@ -50,6 +50,7 @@
     font-size: 1.3rem;
 }
 
+
 .large-navbar li{
     padding: 0 10px;
 }
@@ -178,7 +179,18 @@
 }
 
 
+footer{
+    margin: 5rem 0 1rem;
+}
 
+
+.dropdown-toggle i{
+    vertical-align: -3px;
+}
+
+.accordion-button{
+    font-size: 20px;
+}
 
 
 @media only screen and (max-width: 992px) {
@@ -194,9 +206,14 @@
 @media only screen and (max-width: 768px) {
     .large-navbar li a{
         font-size: 1rem;
+        white-space: nowrap;
+
     }
 
-    
+    footer img{
+        width: 120px;
+    }
+
     .large-navbar li a img{
         width: 30px;
     }
@@ -213,5 +230,9 @@
         border-radius: 20px;
         height: 25vh;
         background-size: cover;
+    }
+
+    .accordion-button{
+        font-size: 18px;
     }
   }
