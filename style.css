@@ -75,6 +75,10 @@
     font-size: 18px;
 }
 
+.text-responsive{
+    font-size: 20px;
+} 
+
 
 .collection .img-card {
     background-size: cover;
@@ -100,7 +104,7 @@
 }
 
 .collection .img1{
-    background-image: url(images/pic1.avif);
+    background:  url(images/pic1.avif);
 }
 
 .collection .img2{
@@ -129,9 +133,12 @@
     vertical-align: 2px;
 }
 
-.card img{
+.card-img .card-img-top{
     border-radius: 20px;
+    height: 35vh;
+    background-size: cover;
 }
+
 
 .card:hover{
     box-shadow:2px 10px 16px 11px #e5dede;
@@ -144,11 +151,63 @@
     text-overflow: ellipsis;
 }
 
+.ovrflw{
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.card-img div img{
+    width: 22px;
+}
+
+.card-img{
+    position: relative;
+}
+
+.card-img div{
+    background: linear-gradient(90deg, rgb(17, 85, 203) 0%, rgb(83, 140, 238) 25%, rgb(17, 85, 203) 50%, rgba(17, 85, 203, 0.8) 80%, rgba(17, 85, 203, 0) 100%);
+    padding: 0 20px;
+    color: white;
+    position: absolute;
+     bottom: 1.2rem;
+}
+
+
+
 
 
 @media only screen and (max-width: 992px) {
     .searchbar {
         display: none;
         background-color: #ff7e8b;
+    }
+
+  }
+
+
+  
+@media only screen and (max-width: 768px) {
+    .large-navbar li a{
+        font-size: 1rem;
+    }
+
+    
+    .large-navbar li a img{
+        width: 30px;
+    }
+
+    .clr-text{
+        font-size: 15px;
+    }
+
+    .text-responsive{
+        font-size: 15px;
+    }
+
+    .card-img .card-img-top{
+        border-radius: 20px;
+        height: 25vh;
+        background-size: cover;
     }
   }
