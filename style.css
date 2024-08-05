@@ -6,6 +6,9 @@
     overflow-x: hidden;
 }
 
+.searchbar{
+    margin-left: 10px;
+}
 
 .inpt1{
     border: none;
