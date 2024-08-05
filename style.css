@@ -204,10 +204,13 @@ footer{
 
   
 @media only screen and (max-width: 768px) {
-    .large-navbar li a{
-        font-size: 1rem;
+    /* .large-navbar li a{
+        font-size: 1rem; 
         white-space: nowrap;
+    } */
 
+    .ovrflw{
+        min-width: 768px;
     }
 
     footer img{
