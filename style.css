@@ -6,6 +6,7 @@
     overflow-x: hidden;
 }
 
+
 .searchbar{
     margin-left: 10px;
 }
@@ -46,26 +47,39 @@
     color: #ff7e8b;
 }
 
-.large-navbar li a{
-    font-size: 1.3rem;
+
+.large-navbar {
+    overflow: auto;
+    white-space: nowrap;
+    padding:20px 0;
+  }
+  
+.large-navbar::-webkit-scrollbar{
+     width:0;
 }
 
 
-.large-navbar li{
-    padding: 0 10px;
+.large-navbar a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: dimgrey;
+    margin:0 30px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    display: inline-block;
 }
+
+.large-navbar a img{
+    width: 40px;
+    margin-right:10px ;
+}
+
 
 .diningOut,.delivery,.nightLife{
     border-bottom: 3px solid #ff7e8b;
-    padding-bottom: 15px;
-    color:#ff7e8b ;
+    color:#ff7e8b !important;
 }
 
-
-
-.large-navbar li a img{
-    width: 40px;
-}
 
 .large-navbar li a .bg-icon{
     padding: 10px;
