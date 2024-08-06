@@ -55,12 +55,12 @@
     padding: 0 10px;
 }
 
-.large-navbar li{
+.diningOut,.delivery{
     border-bottom: 3px solid #ff7e8b;
     padding-bottom: 15px;
 }
 
-.large-navbar li a:active{
+.diningOut,.delivery{
     color:#ff7e8b ;
 }
 
@@ -193,6 +193,31 @@ footer{
 }
 
 
+
+/* delivery page css start  */
+
+.category{
+    background-color: #f8f8f8;
+}
+
+
+.badges .fa-chevron-down{
+    vertical-align: -2px;
+    font-size: 14px;
+}
+
+.category .col-2 img{
+    border-radius: 200px;
+}
+
+.brand .col-2 img{
+    border-radius: 200px;
+
+}
+
+
+
+
 @media only screen and (max-width: 992px) {
     .searchbar {
         display: none;
@@ -238,4 +263,8 @@ footer{
     .accordion-button{
         font-size: 18px;
     }
+
+ /* delivery media query */
+    
+
   }
