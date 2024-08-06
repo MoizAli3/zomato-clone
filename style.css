@@ -55,14 +55,12 @@
     padding: 0 10px;
 }
 
-.diningOut,.delivery{
+.diningOut,.delivery , .nightLife{
     border-bottom: 3px solid #ff7e8b;
     padding-bottom: 15px;
-}
-
-.diningOut,.delivery{
     color:#ff7e8b ;
 }
+
 
 
 .large-navbar li a img{
@@ -140,7 +138,7 @@
 
 .card-img .card-img-top{
     border-radius: 20px;
-    height: 35vh;
+    height: 40vh;
     background-size: cover;
 }
 
