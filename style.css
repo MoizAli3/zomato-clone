@@ -249,6 +249,14 @@ footer{
     width: 170px;
 }
 
+.brand-crousal img{
+    border-radius: 200px;
+}
+
+.line-height{
+    margin-top: -13px;
+}
+
 
 
 @media only screen and (max-width: 992px) {
